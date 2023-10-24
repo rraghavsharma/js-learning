@@ -14,6 +14,7 @@ let isloggedin = true
 
 /*
 <---- Datatypes ---->
+# Premitives Datatypes
 1. number --> 2 to power 53(approx)
 2. bigint --> for big number
 3. string --> ""(prefered), ''
@@ -22,5 +23,11 @@ let isloggedin = true
 use matlab agar hum temperature check kar or temperature kuch aaye nhi toh hum null prefered karte hai
 6. undefined
 7. symbol --> unique
-8. object
+
+// object
 */
+
+console.log(typeof null);  // object
+console.log(typeof undefined); // undefined
+console.log(typeof isloggedin); // boolean
+console.log(typeof age); // number
