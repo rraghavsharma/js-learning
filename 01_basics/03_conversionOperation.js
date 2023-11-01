@@ -46,3 +46,5 @@ let number = 23
 let stringNumber = String(number)
 console.log(typeof stringNumber)
 console.log(stringNumber);
+
+// conversion of object....... continue
