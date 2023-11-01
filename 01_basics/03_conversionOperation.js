@@ -47,4 +47,6 @@ let stringNumber = String(number)
 console.log(typeof stringNumber)
 console.log(stringNumber);
 
-// conversion of object....... continue
+// conversion of object....... continu
+
+// DATA TYPES : Number, String, Boolean, object
