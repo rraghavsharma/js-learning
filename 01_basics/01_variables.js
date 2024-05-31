@@ -2,7 +2,7 @@ const accountId = 1543
 let accountEmail = "raghav@gmail.com"
 var accountPassword = "1254"
 accountCity = "Gwalior"
-let accountState;
+let accountState; // accountState value is undefined if we doesn't give any value to variable
 // In js if can not assign variableName as what (const, let and var etc.), it automatically assign as var ----> not a good way
 // var use karne k do tarike h js m ----> use as (var or let variable)
 // In js we can or can't use semi-colon depends on us.
