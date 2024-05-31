@@ -13,9 +13,9 @@
 // let scor = "33ab"
 // let valueInNumber_02 = Number(scor)
 // console.log(typeof valueInNumber_02);
-// console.log(valueInNumber_02);  // NaN
+// console.log(valueInNumber_02);  // NaN --> not a number
 
-// typeof null --> object
+// typeof null --> object 
 // typeof undefined --> undefined
 
 // convert things(variables) into number (values are)
@@ -62,7 +62,7 @@ let value = 3
 let negValue = -value
 // console.log(negValue);
 
-// console.log(2+2);
+// console.log(2+2); 
 // console.log(2-2);
 // console.log(2*2);
 // console.log(2/3);
@@ -81,6 +81,7 @@ let string_03 = string_01 + string_02
 // console.log(1 + "2"); // 12
 // console.log("1" + 2 + 2); // 122
 // console.log(1 + 2 + "2"); // 32
+// console.log(1 + "2" + 2); // 122
 
 // use parentheses for better understanding of code... use simple line to better understanding of code
 
@@ -100,5 +101,17 @@ console.log(gameScore);
 // https://tc39.es/ecma262/multipage/abstract-operations.html
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
 
+// prefix and postfix in js
+let x = 3;
+const y = x++;
+
+console.log([x,y]);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log([a,b]);
+// Expected output: "a:4, b:4"
 
 

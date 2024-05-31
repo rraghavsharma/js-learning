@@ -15,7 +15,7 @@ const bigNumber = 25246546652522n // in this if we use 'n' then it becomes bigIn
 // const bigNumber = 25246546652522 // behind the scene javascript treated this number as bigInt
 
 
-// console.log("2" === 2); --> false but console.log("2" == 2) --> true
+// console.log("2" === 2); --> false but console.log("2" == 2) --> true 
 // two types of data types : primitive & non-primitive(raference)
 // there are two ways for access(get the data) karne k or data ko rakhne ke ways are: primitive & non-primitive
 
@@ -68,3 +68,30 @@ console.log(typeof myObj);
 // function ko declare karne k kayi tarike h
 // # Examples
 // console.log(null >= 0); 
+
+/* ****************************************** */
+
+// Stack ---> Primitive, Heap ---> Non-Primitive
+
+let myYoutubename = "raghavsharma.com"
+
+let anotherName = myYoutubename
+anotherName = "sharma.com"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "raghav@google.com" // Agar humko email access karna h toh hum userOne.email use karenge
+
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
+console.log(userOne);
+console.log(userTwo);

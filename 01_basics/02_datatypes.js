@@ -27,7 +27,7 @@ use matlab agar hum temperature check kar or temperature kuch aaye nhi toh hum n
 // object
 */
 
-console.log(typeof null); // object
+console.log(typeof null); // object (imp.)
 console.log(typeof undefined); // undefined
 console.log(typeof isloggedin); // boolean
 console.log(typeof age); // number
